@@ -1,10 +1,10 @@
 export default {
   grid: {
-    container: '130rem',
-    gutter: '3.2rem'
+    container: '130rem', // tamanho maximo que ocupa em tela
+    gutter: '3.2rem' // espaçamento entre as colunas
   },
   border: {
-    radius: '0.4rem'
+    radius: '0.4rem' // todas bordas -> botoes, inputs, etc..
   },
   font: {
     family:
@@ -15,15 +15,15 @@ export default {
     sizes: {
       xsmall: '1.2rem',
       small: '1.4rem',
-      medium: '1.6rem',
+      medium: '1.6rem', // fonte base
       large: '1.8rem',
       xlarge: '2.0rem',
       xxlarge: '2.8rem'
     }
   },
   colors: {
-    primary: '#F231A5',
-    secondary: '#3CD3C1',
+    primary: '#F231A5', // cor destaque
+    secondary: '#3CD3C1', // segunda cor destaque
     mainBg: '#06092B',
     white: '#FAFAFA',
     black: '#030517',
@@ -32,6 +32,7 @@ export default {
     darkGray: '#2E2F42'
   },
   spacings: {
+    // modelo do anvril
     xxsmall: '0.8rem',
     xsmall: '1.6rem',
     small: '2.4rem',
@@ -41,6 +42,7 @@ export default {
     xxlarge: '5.6rem'
   },
   layers: {
+    // niveis de camada -> modal, overlay, menu fixo
     base: 10,
     menu: 20,
     overlay: 30,

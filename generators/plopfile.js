@@ -30,8 +30,8 @@ module.exports = function (plop) {
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/teste.tsx',
-        templateFile: 'templates/teste.tsx.hbs'
+        path: '../src/components/{{pascalCase name}}/test.tsx',
+        templateFile: 'templates/test.tsx.hbs'
       }
     ]
   })
